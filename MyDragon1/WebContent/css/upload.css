@@ -1,0 +1,12 @@
+body,html{height:100%}
+
+.container-fluid {
+	background-image: url(../img/background-image/book-background-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+}
+
+.container-fluid>form {
+	margin-top: 200px;
+}

@@ -1,0 +1,7 @@
+在context.xml中的环境配置：<!--/*upload.jsp上传图片存储的位置*/ -->
+<Parameter name="upload_dragon" override="false"
+	 value="F:\java web\upload\dragon\bookimages"  />
+
+在server.xml中的环境配置：<!--/*book.jsp中img中的相对路径*/ -->
+<Context docBase="F:\java web\upload\dragon\bookimages"
+	 path="/MyDragonBookimages" />
